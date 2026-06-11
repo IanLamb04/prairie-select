@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-t from-ink/60 via-transparent to-ink/20" />
 
       <div className="relative mx-auto w-full max-w-7xl px-4 pt-28 pb-20 sm:px-6 lg:px-8">
-        <div className="max-w-2xl glass-panel metal-border mt-4 rounded-sm px-5 py-3">
+        <div className="max-w-2xl metal-border mt-4 rounded-sm px-5 py-3 bg-gradient-to-r from-ink/85 via-ink/55 to-ink/75" >
           <p className="mb-5 text-xs font-medium uppercase tracking-[0.3em] text-brass">
             Prairie Select Exteriors
           </p>
@@ -27,7 +27,7 @@ export default function Hero() {
           <div className="mt-10 flex flex-wrap gap-4">
             <a
               href="#contact"
-              className="hidden border border-brass/60 bg-brass/10 px-5 py-2 text-sm font-medium tracking-wide text-brass-light transition-colors hover:bg-brass/20 md:inline-block text-center"
+              className="border border-brass/60 bg-brass/10 px-8 py-3.5 text-sm font-medium tracking-wide text-brass-light transition-colors hover:bg-brass/20"
             >
               Free Quote
             </a>
