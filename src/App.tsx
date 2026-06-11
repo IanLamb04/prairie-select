@@ -20,7 +20,7 @@ function App() {
 
       {/* Hero Section */}
       <section className="relative bg-gradient-to-b from-sage-50 to-sage-100 py-20 md:py-32">
-        <div className="max-w-6xl mx-auto px-6 text-center">
+        <div className="max-w-6xl mx-auto px-6 text-center place-items-center">
           <h1 className="text-5xl md:text-6xl font-bold text-sage-900 mb-6 leading-tight drop-shadow-lg">
             Quality Exteriors for Your Home
           </h1>
@@ -107,12 +107,12 @@ function App() {
       <section id="about" className="py-20 md:py-28 bg-sage-100">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div className="bg-sage-600 rounded-lg h-80 flex items-center justify-center shadow-lg">
+            <div className="bg-sage-600 rounded-lg h-90 flex items-center justify-center shadow-lg">
               <span className="text-6xl">🏡</span>
             </div>
             <div>
               <h2 className="text-4xl font-bold text-slate-900 mb-6">Why Choose Prairie Select</h2>
-              <p className="text-sage-800 mb-6 leading-relaxed font-medium text-lg">
+              <p className="text-sage-800 mb-6 leading-relaxed font-medium text-lg p-4">
                 With over 15 years of experience serving the prairie communities, we've built our reputation on quality craftsmanship and exceptional customer service.
               </p>
               <ul className="space-y-4">
@@ -140,9 +140,9 @@ function App() {
 
       {/* Contact Section */}
       <section id="contact" className="py-20 md:py-28 bg-sage-50">
-        <div className="max-w-6xl mx-auto px-6 text-center">
+        <div className="max-w-6xl mx-auto px-6 text-center place-items-center">
           <h2 className="text-4xl font-bold text-slate-900 mb-6">Ready to Transform Your Home?</h2>
-          <p className="text-xl text-sage-800 mb-8 max-w-2xl mx-auto font-medium">
+          <p className="text-xl text-sage-800 mb-8 max-w-2xl mx-auto font-medium p-4">
             Get in touch with us today for a free consultation and estimate. We look forward to hearing from you.
           </p>
           
