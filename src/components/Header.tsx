@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import logo from '../assets/prairie-select-logo.png'
 
 const navLinks = [
   { label: 'Services', href: '#services' },
@@ -16,8 +17,8 @@ export default function Header() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <nav className="glass-panel metal-border mt-4 flex items-center justify-between rounded-sm px-5 py-3">
           <a href="#" className="group flex items-center gap-3">
-            <span className="flex h-9 w-9 items-center justify-center border border-brass/40 bg-charcoal">
-              <span className="font-display text-lg font-semibold text-brass">P</span>
+            <span className="flex h-10 w-10 items-center justify-center border border-brass/40 bg-charcoal">
+              <img src={logo} alt="Prairie Select" className="font-display text-lg font-semibold text-brass" />
             </span>
             <div className="leading-tight">
               <span className="font-display text-xl font-medium tracking-wide text-cream">
