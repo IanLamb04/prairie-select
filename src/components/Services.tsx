@@ -28,13 +28,7 @@ const services = [
     description:
       'Critical details that prevent ice dams and give your roofline a clean, finished edge.',
     accent: 'steel',
-  },
-  {
-    title: 'Roofing',
-    description:
-      'Complete roof systems installed with the same rigor we bring to every exterior surface.',
-    accent: 'wood',
-  },
+  }
 ]
 
 export default function Services() {

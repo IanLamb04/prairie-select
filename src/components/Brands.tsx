@@ -11,18 +11,26 @@ const brands = [
 
 export default function Brands() {
   return (
-    <section className="border-y border-white/5 bg-ink py-16">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <p className="mb-10 text-center text-xs font-medium uppercase tracking-[0.3em] text-cream/40">
+    <section className="relative border-y border-white/5 bg-ink py-16">
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{
+          backgroundImage:
+            'url(https://plus.unsplash.com/premium_photo-1689609950112-d66095626efb?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
+        }}
+      />
+      <div className="absolute inset-0 bg-gradient-to-b from-ink/65 via-ink/55 to-ink/40" />
+      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 z-10">
+        <p className="mb-10 text-center text-xs font-medium uppercase tracking-[0.3em] text-brass-light">
           Trusted brands we carry
         </p>
-        <div className="grid grid-cols-2 gap-px bg-white/5 sm:grid-cols-4">
+        <div className="grid grid-cols-2 sm:grid-cols-4">
           {brands.map((brand) => (
             <div
               key={brand}
-              className="flex items-center justify-center bg-charcoal px-4 py-8 transition-colors hover:bg-steel"
+              className="border border-cream/20 flex items-center justify-center px-4 py-8 transition-colors hover:border-cream/40 hover:bg-cream/5"
             >
-              <span className="text-center text-xs font-medium uppercase tracking-[0.15em] text-cream/50 transition-colors hover:text-brass/80">
+              <span className="text-center text-xs font-medium uppercase tracking-[0.15em] text-cream transition-colors">
                 {brand}
               </span>
             </div>
