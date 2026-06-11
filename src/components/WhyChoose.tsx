@@ -7,7 +7,7 @@ export default function WhyChoose() {
             className="absolute inset-0 bg-cover bg-center"
             style={{
               backgroundImage:
-                'url(https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80)',
+                'url(https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
             }}
           />
           <div className="absolute inset-0 bg-gradient-to-r from-ink/20 to-ink/60 lg:to-ink" />
