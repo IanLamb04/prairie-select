@@ -13,19 +13,18 @@ const areas = [
 export default function ServiceAreas() {
   return (
     <section id="areas" className="wood-grain relative py-24 lg:py-32">
-      <div className="absolute inset-0 bg-ink/40" />
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div>
-            <p className="text-xs font-medium uppercase tracking-[0.3em] text-brass-light">
+            <p className="text-xs font-medium uppercase tracking-[0.3em] text-brass">
               Service Areas
             </p>
-            <h2 className="mt-4 font-display text-4xl font-medium text-cream sm:text-5xl">
+            <h2 className="mt-4 font-display text-4xl font-medium text-oak sm:text-5xl">
               Proudly serving
               <br />
               Manitoba & beyond
             </h2>
-            <p className="mt-6 max-w-md leading-relaxed text-cream/65">
+            <p className="mt-6 max-w-md leading-relaxed text-oak">
               From urban Winnipeg to surrounding communities, our local crews understand
               the climate, the architecture, and what prairie homeowners need.
             </p>

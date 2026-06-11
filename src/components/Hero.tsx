@@ -8,11 +8,10 @@ export default function Hero() {
             'url(https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=80)',
         }}
       />
-      <div className="absolute inset-0 bg-gradient-to-r from-ink/90 via-ink/70 to-ink/30" />
       <div className="absolute inset-0 bg-gradient-to-t from-ink/60 via-transparent to-ink/20" />
 
       <div className="relative mx-auto w-full max-w-7xl px-4 pt-28 pb-20 sm:px-6 lg:px-8">
-        <div className="max-w-2xl">
+        <div className="max-w-2xl glass-panel metal-border mt-4 rounded-sm px-5 py-3">
           <p className="mb-5 text-xs font-medium uppercase tracking-[0.3em] text-brass">
             Prairie Select Exteriors
           </p>
@@ -28,7 +27,7 @@ export default function Hero() {
           <div className="mt-10 flex flex-wrap gap-4">
             <a
               href="#contact"
-              className="border border-brass bg-brass px-8 py-3.5 text-sm font-medium tracking-wide text-ink transition-colors hover:bg-brass-light"
+              className="hidden border border-brass/60 bg-brass/10 px-5 py-2 text-sm font-medium tracking-wide text-brass-light transition-colors hover:bg-brass/20 md:inline-block text-center"
             >
               Free Quote
             </a>

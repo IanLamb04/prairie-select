@@ -1,3 +1,5 @@
+import logo from '../assets/prairie-select-logo.png'
+
 export default function Footer() {
   return (
     <footer className="border-t border-white/5 bg-charcoal">
@@ -5,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col items-center justify-between gap-8 sm:flex-row">
           <div className="flex items-center gap-3">
             <span className="flex h-8 w-8 items-center justify-center border border-brass/40 bg-ink">
-              <span className="font-display text-sm font-semibold text-brass">P</span>
+              <img src={logo} alt="Prairie Select" />
             </span>
             <div className="leading-tight">
               <span className="font-display text-lg text-cream">Prairie Select</span>
@@ -16,12 +18,12 @@ export default function Footer() {
           </div>
 
           <p className="text-center text-xs text-cream/35">
-            © {new Date().getFullYear()} Prairie Select. All rights reserved.
+            © {new Date().getFullYear()} Prairie Select Exteriors Ltd. All rights reserved.
           </p>
 
           <div className="flex gap-6 text-xs text-cream/40">
             <a href="#" className="transition-colors hover:text-brass">
-              Privacy Policy
+              Terms
             </a>
             <a href="#contact" className="transition-colors hover:text-brass">
               Contact

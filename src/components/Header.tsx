@@ -2,8 +2,8 @@ import { useState } from 'react'
 import logo from '../assets/prairie-select-logo.png'
 
 const navLinks = [
-  { label: 'Services', href: '#services' },
   { label: 'Craft', href: '#craft' },
+  { label: 'Services', href: '#services' },
   { label: 'Testimonials', href: '#testimonials' },
   { label: 'Areas', href: '#areas' },
   { label: 'Contact', href: '#contact' },

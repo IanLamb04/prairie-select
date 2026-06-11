@@ -34,7 +34,7 @@ export default function Contact() {
               </a>
 
               <a
-                href="mailto:info@prairieselect.ca"
+                href="mailto:info@prairieselect.com"
                 className="group flex items-center gap-4 text-cream/80 transition-colors hover:text-brass-light"
               >
                 <span className="flex h-12 w-12 items-center justify-center border border-white/10 bg-steel transition-colors group-hover:border-brass/40">
@@ -44,7 +44,7 @@ export default function Contact() {
                 </span>
                 <div>
                   <span className="block text-xs uppercase tracking-wider text-cream/40">Email</span>
-                  <span className="text-lg">info@prairieselect.ca</span>
+                  <span className="text-lg">info@prairieselect.com</span>
                 </div>
               </a>
             </div>
