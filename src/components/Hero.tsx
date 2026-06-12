@@ -8,7 +8,7 @@ export default function Hero() {
             'url(https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=80)',
         }}
       />
-      <div className="absolute inset-0 bg-gradient-to-r from-ink/50 via-ink/35 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-r from-ink/75 via-ink/45 to-transparent" />
 
       <div className="relative mx-auto w-full max-w-7xl px-4 pt-28 pb-20 sm:px-6 lg:px-8">
         <div className="max-w-2xl mt-4">
