@@ -1,3 +1,5 @@
+import { balancedGridCols, balancedGridSpan } from '../utils/grid'
+
 const brands = [
   'James Hardie',
   'LP SmartSide',
@@ -24,11 +26,11 @@ export default function Brands() {
         <p className="mb-10 text-center text-xs font-medium uppercase tracking-[0.3em] text-brass-light">
           Trusted brands we carry
         </p>
-        <div className="grid grid-cols-2 sm:grid-cols-4">
-          {brands.map((brand) => (
+        <div className={`grid ${balancedGridCols(2)} ${balancedGridCols(4, 'sm')}`}>
+          {brands.map((brand, i) => (
             <div
               key={brand}
-              className="border border-cream/20 flex items-center justify-center px-4 py-8 transition-colors hover:border-cream/40 hover:bg-cream/5"
+              className={`border border-cream/20 flex items-center justify-center px-4 py-8 transition-colors hover:border-cream/40 hover:bg-cream/5 ${balancedGridSpan(i, brands.length, 2)} ${balancedGridSpan(i, brands.length, 4, 'sm')}`}
             >
               <span className="text-center text-xs font-medium uppercase tracking-[0.15em] text-cream transition-colors">
                 {brand}

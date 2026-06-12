@@ -1,3 +1,5 @@
+import { balancedGridCols, balancedGridSpan } from '../utils/grid'
+
 const testimonials = [
   {
     quote:
@@ -32,11 +34,11 @@ export default function Testimonials() {
           </h2>
         </div>
 
-        <div className="mt-16 grid gap-6 lg:grid-cols-3">
+        <div className={`mt-16 grid gap-6 ${balancedGridCols(3, 'lg')}`}>
           {testimonials.map((t, i) => (
             <figure
               key={t.author}
-              className={`metal-border flex flex-col justify-between p-8 ${
+              className={`metal-border flex flex-col justify-between p-8 ${balancedGridSpan(i, testimonials.length, 3, 'lg')} ${
                 i === 1 ? 'glass-panel lg:-mt-4 lg:mb-4' : 'bg-steel/50'
               }`}
             >

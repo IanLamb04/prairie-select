@@ -1,3 +1,5 @@
+import { balancedGridCols, balancedGridFullSpan, balancedGridSpan } from '../utils/grid'
+
 const areas = [
   'Winnipeg',
   'Selkirk',
@@ -30,16 +32,20 @@ export default function ServiceAreas() {
             </p>
           </div>
 
-          <div className="glass-panel-warm metal-border grid grid-cols-2 gap-px bg-white/5 p-px sm:grid-cols-3">
-            {areas.map((area) => (
+          <div
+            className={`glass-panel-warm metal-border grid gap-px bg-white/5 p-px ${balancedGridCols(2)} ${balancedGridCols(3, 'sm')}`}
+          >
+            {areas.map((area, i) => (
               <div
                 key={area}
-                className="bg-charcoal/80 px-4 py-5 text-center text-sm text-cream/70 transition-colors hover:bg-steel/80 hover:text-brass-light"
+                className={`bg-charcoal/80 px-4 py-5 text-center text-sm text-cream/70 transition-colors hover:bg-steel/80 hover:text-brass-light ${balancedGridSpan(i, areas.length, 2)} ${balancedGridSpan(i, areas.length, 3, 'sm')}`}
               >
                 {area}
               </div>
             ))}
-            <div className="col-span-2 flex items-center justify-center bg-charcoal/60 px-4 py-5 text-sm text-cream/45 sm:col-span-3">
+            <div
+              className={`flex items-center justify-center bg-charcoal/60 px-4 py-5 text-sm text-cream/45 ${balancedGridFullSpan(2)} ${balancedGridFullSpan(3, 'sm')}`}
+            >
               & more surrounding communities
             </div>
           </div>

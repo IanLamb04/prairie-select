@@ -1,3 +1,5 @@
+import { balancedGridCols, balancedGridSpan } from '../utils/grid'
+
 const services = [
   {
     title: 'Custom Cladding',
@@ -50,11 +52,13 @@ export default function Services() {
           </p>
         </div>
 
-        <div className="mt-16 grid gap-px bg-white/5 sm:grid-cols-2 lg:grid-cols-3">
-          {services.map((service) => (
+        <div
+          className={`mt-16 grid gap-px bg-white/5 ${balancedGridCols(2, 'sm')} ${balancedGridCols(3, 'lg')}`}
+        >
+          {services.map((service, i) => (
             <article
               key={service.title}
-              className={`group relative overflow-hidden p-8 transition-colors ${
+              className={`group relative overflow-hidden p-8 transition-colors ${balancedGridSpan(i, services.length, 2, 'sm')} ${balancedGridSpan(i, services.length, 3, 'lg')} ${
                 service.accent === 'wood'
                   ? 'bg-charcoal hover:bg-oak/20'
                   : 'bg-steel hover:bg-graphite'
