@@ -19,9 +19,9 @@ export default function App() {
         <TrustBar />
         <WhyChoose />
         <Services />
+        <Brands />
         <Quote />
         <Testimonials />
-        <Brands />
         <ServiceAreas />
         <Contact />
       </main>
