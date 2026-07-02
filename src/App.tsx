@@ -3,8 +3,6 @@ import Hero from './components/Hero'
 import TrustBar from './components/TrustBar'
 import WhyChoose from './components/WhyChoose'
 import Services from './components/Services'
-import Quote from './components/Quote'
-import Testimonials from './components/Testimonials'
 import Brands from './components/Brands'
 import ServiceAreas from './components/ServiceAreas'
 import Contact from './components/Contact'
@@ -20,8 +18,6 @@ export default function App() {
         <WhyChoose />
         <Services />
         <Brands />
-        <Quote />
-        <Testimonials />
         <ServiceAreas />
         <Contact />
       </main>

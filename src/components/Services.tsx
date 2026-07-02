@@ -47,8 +47,8 @@ export default function Services() {
             </h2>
           </div>
           <p className="max-w-md text-sm leading-relaxed text-cream/55 lg:text-right">
-            Whether you need a full renovation or a targeted upgrade, we deliver
-            craftsmanship you can see from the curb and trust for decades.
+            Whether you need a full renovation or a targeted upgrade,
+            we deliver craftsmanship you can trust for decades.
           </p>
         </div>
 

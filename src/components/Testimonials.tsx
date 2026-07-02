@@ -9,9 +9,9 @@ const testimonials = [
   },
   {
     quote:
-      'Kept us informed every step of the way. No hidden costs, excellent craftsmanship — and a thorough inspection when everything was finished.',
-    author: 'Carolyn N.',
-    location: 'Winnipeg, MB',
+      'Very happy with my experience with Prairie Select Exteriors. They came out to my place and did my gutters, fascia, and downspouts all in a few short hours. The results look great and they had great customer service. They had an eye for detail and cared enough to do quality work. Thanks guys!',
+    author: 'Carl Henry',
+    location: 'Landmark, MB',
   },
   {
     quote:
